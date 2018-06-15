@@ -1,6 +1,5 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
   <head>
     <title>My DHSI Music Encoding Project</title>
     <meta charset="utf-8">
@@ -10,21 +9,25 @@
     <script src="js/verovio-toolkit.js"></script>
     <script src="js/utils.js"></script>
   </head>
-
   <body>
-
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div>
+      <button id="stop">stop</button>
+    </div>
     <div id="content">
       <!-- ADD YOUR HTML CONTENT HERE! -->
-      <h1>My project</h1>
+      <h1>GARTENLIEDER SECHS GESÄNGE <p>für Sopran, Alt, Tenor und Bass</p></h1>
+      <h2>No. 1 HÖRST DU NICHT DIE BÄUME RAUSCHEN</h2>
+      <h3>Fanny Hensel Mendelssohn-Batholdy</h3>
+      <p>MIDI recordings of individual part lines accessed by clicking the first measure of the desired stave.</p>
+      <p>Clicking the first measure multiple times will start another version of the recording, please be certain to only click once. Press the stop button to stop the playback of all recordings.</p>
     </div>
-
-    <!-- **** DO NO EDIT BELOW THIS LINE **** -->
-    <!-- * **** **** **** **** **** **** **** -->
     <div id="score">
       <!-- THIS IS WHERE THE SCORE GOES AUTOMATICALLY -->
     </div>
     <!-- THIS CALLS THE SCRIPT THAT GETS THE MEI SCORE -->
     <script src="js/index.js"></script>
-  </body>
 
+    <script src="js/audio.js"></script>
+  </body>
 </html>

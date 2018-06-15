@@ -4,7 +4,7 @@
 var vrvToolkit = new verovio.toolkit()
 
 /* Setup Verovio - adjust the options below */
-var zoom = 60
+var zoom = 40
 var content = document.getElementById('content')
 var contentHeight = 0
 if (content) {
@@ -20,4 +20,4 @@ options = {
 vrvToolkit.setOptions(options)
 
 /* Show the score */
-showScore('score', 'data/example.mei') // <-- CHANGE THIS TO YOUR FILE
+showScore('score', 'data/Hensel_Lockung_Op3_No1.mei') // <-- CHANGE THIS TO YOUR FILE

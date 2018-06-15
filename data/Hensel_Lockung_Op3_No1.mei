@@ -3,7 +3,10 @@
 <meiHead xml:id="m-2">
     <fileDesc xml:id="m-3">
         <titleStmt xml:id="m-4">
-            <title xml:id="m-10"/>
+            <title xml:id="m-10">Gartenlieder Op.3</title>
+            <title type="subtitle">
+              <identifier>No. 1 HÖRST DU NICHT DIE BÄUME RAUSCHEN</identifier>
+            </title>
             <respStmt xml:id="m-11">
                 <persName xml:id="m-12"/>
             </respStmt>
@@ -34,25 +37,42 @@
     </workDesc>
 </meiHead>
 <music xml:id="m-22">
+  <performance>
+      <recording>
+    <clip startid ="#m-45">
+        <avFile mimetype="audio/mp3" target= "SopranoSib.mp3"></avFile>
+    </clip>
+    <clip startid ="#m-54">
+          <avFile mimetype="audio/mp3" target= "AltoSib.mp3"></avFile>
+    </clip>
+    <clip startid ="#m-64">
+          <avFile mimetype="audio/mp3" target= "TenorSib.mp3"></avFile>
+    </clip>
+
+    <clip startid ="#m-74">
+          <avFile mimetype="audio/mp3" target= "BassSib.mp3"></avFile>
+      </clip>
+      </recording>
+  </performance>
     <body xml:id="m-23">
         <mdiv xml:id="m-24">
             <score xml:id="m-25">
                 <scoreDef xml:id="m-26" lyric.name="Times New Roman" meter.count="4" meter.unit="4" music.name="Opus Std" page.botmar="9.9187mm" page.height="297mm" page.leftmar="14.9479mm" page.rightmar="9.9187mm" page.topmar="16.9037mm" page.width="210mm" ppq="256" text.name="Times New Roman">
                     <staffGrp xml:id="m-27">
                         <staffGrp xml:id="m-40" n="1" symbol="bracket">
-                            <staffDef xml:id="m-28" clef.line="2" clef.shape="G" key.mode="major" key.sig="5s" label="Midi_1" lines="5" n="1">
+                            <staffDef xml:id="m-28" clef.line="2" clef.shape="G" key.mode="major" key.sig="5s" label="Soprano" lines="5" n="1">
                                 <!-- keyboard.piano.grand.bright -->
                                 <instrDef xml:id="m-30" midi.channel="1" midi.pan="63" midi.volume="100"/>
                             </staffDef>
-                            <staffDef xml:id="m-31" clef.line="2" clef.shape="G" key.mode="major" key.sig="5s" label="Midi_1" lines="5" n="2">
+                            <staffDef xml:id="m-31" clef.line="2" clef.shape="G" key.mode="major" key.sig="5s" label="Alto" lines="5" n="2">
                                 <!-- keyboard.piano.grand.bright -->
                                 <instrDef xml:id="m-33" midi.channel="1" midi.pan="63" midi.volume="100"/>
                             </staffDef>
-                            <staffDef xml:id="m-34" clef.dis="8" clef.dis.place="below" clef.line="2" clef.shape="G" key.mode="major" key.sig="5s" label="Midi_1" lines="5" n="3">
+                            <staffDef xml:id="m-34" clef.dis="8" clef.dis.place="below" clef.line="2" clef.shape="G" key.mode="major" key.sig="5s" label="Tenor" lines="5" n="3">
                                 <!-- keyboard.piano.grand.bright -->
                                 <instrDef xml:id="m-36" midi.channel="1" midi.pan="63" midi.volume="100"/>
                             </staffDef>
-                            <staffDef xml:id="m-37" clef.line="4" clef.shape="F" key.mode="major" key.sig="5s" label="Midi_1" lines="5" n="4">
+                            <staffDef xml:id="m-37" clef.line="4" clef.shape="F" key.mode="major" key.sig="5s" label="Bass" lines="5" n="4">
                                 <!-- keyboard.piano.grand.bright -->
                                 <instrDef xml:id="m-39" midi.channel="1" midi.pan="63" midi.volume="100"/>
                             </staffDef>
